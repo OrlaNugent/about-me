@@ -1,0 +1,46 @@
+.nav-bar {
+    background: #c4e3cb;
+    color: #f9f8ed;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    height: 5rem;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 0;
+}
+.nav-bar .links {
+    color:#f9f8ed;
+    font-size: 1.5rem;
+    font-family: "Montserrat-Medium";
+    text-decoration: none;
+}
+
+.nav-bar .links:hover, .nav-bar2 .links.active {
+    color:  #d59321;
+    text-decoration: underline;
+    transition:  0.32s ease-in-out;
+}
+
+.logo {
+    max-width: 12rem;
+
+}
+.logo-small {
+    max-width: 5rem;
+
+}
+
+@media (max-width: 770px) {
+
+.nav-bar .links {
+        font-size: 1rem;
+    }
+}

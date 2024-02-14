@@ -1,0 +1,81 @@
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 3rem;
+    z-index: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #C4E3CB;
+    border-radius: 5rem;
+    height: 15rem;
+    max-width: 30rem;
+    z-index:1;
+}
+
+.title {
+    font-family: "Montserrat-Bold";
+    color: #155656;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.description {
+    font-family: "Montserrat-Medium";
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-image {
+    border-radius: 12rem;
+    height: 17rem;
+    z-index: 1;
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 10px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+
+@media screen and (max-width: 830px) {
+    .content{
+        align-items: center;
+        height: 13rem;
+        width: 20rem;
+    }
+    .title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .description {
+        font-size: 1.5rem;
+    }
+    .profile-image{
+        height: 15rem;
+    }
+}
+    

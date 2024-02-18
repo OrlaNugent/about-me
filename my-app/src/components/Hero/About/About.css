@@ -1,0 +1,45 @@
+.title-about {
+    font-family: "Montserrat-Bold";
+    color: #155656;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.content-about{
+    color:  #155656;
+    max-width: 30rem;
+    z-index:1;
+    font-family: "Montserrat-Medium";
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.description-about {
+    margin-left: 1rem;
+}
+
+.get-in-touch {
+    text-decoration: none;
+    color: #129d9d;
+    text-decoration: underline;
+}
+
+.get-in-touch:hover {
+    color:  #d59321;
+    text-decoration: underline;
+    transition:  0.25s ease-in-out;
+}
+
+@media screen and (max-width: 830px) {
+    .title-about {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .description-about {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}

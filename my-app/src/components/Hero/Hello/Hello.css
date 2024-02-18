@@ -1,0 +1,65 @@
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #C4E3CB;
+    border-radius: 5rem;
+    height: 10rem;
+    width: 25rem;
+}
+
+.title {
+    font-family: "Montserrat-Bold";
+    color: #155656;
+    font-size: 3rem;
+
+}
+
+
+.profile-image {
+    border-radius: 12rem;
+    height: 17rem;
+    z-index: 1;
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 10px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+  }
+
+@media screen and (max-width: 830px) {
+    .content{
+        align-items: center;
+        max-height: 8rem;
+        width: 20rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .profile-image{
+        height: 15rem;
+    }
+}
+    

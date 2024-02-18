@@ -19,17 +19,17 @@ export const NavBar = () => {
 			</a>
 			<ul>
 				<li>
-					<a href='/' className='links'>
+					<a href='#home' className='links'>
 						Home
 					</a>
 				</li>
 				<li>
-					<a href='/skills' className='links'>
+					<a href='#skills' className='links'>
 						Skills
 					</a>
 				</li>
 				<li>
-					<a href='/contact' className='links'>
+					<a href='#contact' className='links'>
 						Contact
 					</a>
 				</li>

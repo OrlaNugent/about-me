@@ -1,0 +1,68 @@
+.footer {
+    background-color: white;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 100vw;
+}
+
+.footer-text{
+    color:  #155656;
+    font-family: "Montserrat-Bold";
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-left: 0;
+}
+
+.footer-links, .footer-links a {
+    list-style: none;
+    gap: 26px;
+    color: #155656;
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.footer-links:hover, .footer-links a:hover{
+    color:  #d59321;
+    text-decoration: underline;
+    transition:  0.20s ease-in-out;
+}
+
+.daisy {
+    height: 30px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: translate(0, 0px);
+    }
+    50% {
+      transform: translate(0, 5px);
+    }
+    100% {
+      transform: translate(0, -0px);
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+  .footer-text {
+      font-size: 1.5rem;
+  }
+}
+

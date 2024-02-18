@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Typescript",
+        "img": "images/tslogo.png"
+    },
+    {
+        "title": "React",
+        "img": "images/logo192.png"
+    },
+
+    {
+        "title": "Javascript",
+        "img": "images/jslogo.png"
+    },
+    {
+        "title": "Python",
+        "img": "images/pythonlogo.png"
+    },
+    {
+        "title": "CSS",
+        "img": "images/csslogo.svg"
+    },
+    {
+        "title": "HTML",
+        "img": "images/html.png"
+    },
+    {
+        "title": "Next.js",
+        "img": "images/nextjslogo.png"
+    },
+    {
+        "title": "Jest",
+        "img": "images/jesttest.png"
+    },
+    {
+        "title": "Cypres",
+        "img": "images/cypresslogo.jpeg"
+    }
+]

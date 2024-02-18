@@ -1,0 +1,78 @@
+.skills {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+}
+
+
+.title-skills {
+    font-family: "Montserrat-Bold";
+    color: #155656;
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.skills-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.experience-card {
+    height: 28.5rem;
+    width: 21rem;
+    background-color: white;
+    color: black;
+    padding-top: 1rem;
+    border-radius: 5rem;
+
+}
+
+.experience-logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.experience-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    font-family: "Montserrat-Medium";
+}
+
+.experience-title {
+    font-weight: 700;
+    color: #155656;
+    font-size: 24px;
+}
+@media screen and (max-width: 830px) {
+    .skills-experience {
+        flex-direction: column;
+        align-items: center;
+    }
+    .experience {
+        flex-direction: column;
+    }
+    .title-skills {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+       justify-content: center;
+    }
+    .experience-text {
+        font-size: 1rem;
+    }
+}
+    

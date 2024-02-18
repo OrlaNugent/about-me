@@ -1,0 +1,46 @@
+.carousel{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 490px;
+    background-color: #fff;
+}
+
+.skill-logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.slider-text{
+    padding-top: 40px;
+    font-family: "Montserrat-Medium";
+}
+
+.skill-title {
+    font-weight: 700;
+    color: #155656;
+    font-size: 24px;
+}
+
+
+.button-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+

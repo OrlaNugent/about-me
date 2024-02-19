@@ -46,10 +46,12 @@
     .title-about {
         font-size: 1rem;
         margin-bottom: 1rem;
+        margin-top: 1rem;
         text-align: center;
     }
     .description-about {
         font-size: 1rem;
         text-align: center;
+        width: 300px;
     }
     }

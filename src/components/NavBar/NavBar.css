@@ -30,13 +30,20 @@
 }
 
 .logo {
-    max-width: 12rem;
-
+    width: 12rem;
+    transition:  0.25s ease-in-out;
 }
+
+.logo:hover{
+    width:12.3rem;
+    transition:  0.25s ease-in-out;
+}
+
 .logo-small {
     max-width: 5rem;
 
 }
+
 
 @media (max-width: 830px) {
 

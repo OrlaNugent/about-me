@@ -1,56 +1,54 @@
-.skills {
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+.skills-experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
     padding-bottom: 4rem;
 }
-
 
 .title-skills {
     font-family: "Montserrat-Bold";
     color: #155656;
     font-size: 3rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
-
-}
-
-.skills-experience {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-
+    margin-bottom: 3rem;
 }
 
 .experience {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     gap: 2rem;
 }
-.experience-card {
+.experience-card, .tech-stack {
     height: 28.5rem;
     width: 21rem;
     background-color: white;
     color: black;
-    padding-top: 1rem;
     border-radius: 5rem;
-
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.6s ease;
 }
 
-.experience-logo {
-    height: 150px;
-    width: 150px;
+.experience-card {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-card:hover, .tech-stack:hover{
+    transform: translateY(-20px);
+}
+
+.experience-image {
+    height:9rem;
+    width:9rem;
     border-radius: 50%;
 }
 
 .experience-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 40px;
     font-family: "Montserrat-Medium";
+    text-align: left;
+    padding: 20px
 }
 
 .experience-title {
@@ -58,6 +56,20 @@
     color: #155656;
     font-size: 24px;
 }
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-logo{
+    height: 6rem;
+    width: 6rem;
+    padding: 5px;
+}
+
 @media screen and (max-width: 830px) {
     .skills-experience {
         flex-direction: column;
@@ -75,4 +87,6 @@
         font-size: 1rem;
     }
 }
+
+
     

@@ -7,7 +7,7 @@ export const Skills = () => {
 			year: "Nov 22 -",
 			company: "Zoa",
 			img: "images/programmer.svg",
-			review: `I worked in a full stack product team delivering web-based customer service tools.`,
+			review: `I worked in a full stack product team delivering web-based customer service tools. I used Typescript and React to develop our products.`,
 		},
 		{
 			name: `Apprentice Software Engineer`,
@@ -19,15 +19,19 @@ export const Skills = () => {
 	];
 
 	return (
-		<section className='skills' id='skills'>
+		<section id='skills'>
 			<h1 className='title-skills'>Skills and Experience</h1>
 			<div className='skills-experience'>
 				<div className='experience'>
 					{items.map((item, id) => (
 						<div className='experience-card' key={id}>
-							<img src={item.img} alt={item.name} className='experience-logo' />
+							<img
+								src={item.img}
+								alt={item.name}
+								className='experience-image'
+							/>
 							<div className='experience-text'>
-								<p className='experience-title'>{item.name}</p>
+								<h2 className='experience-title'>{item.name}</h2>
 								<p>
 									{item.company} {item.year}
 								</p>

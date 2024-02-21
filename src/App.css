@@ -15,20 +15,15 @@
   src: url(/src/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
 }
 
+:root {
+  /* Colours */
+  --color-text: #155656;
+  --color-primary: #C4E3CB;
+  --color-secondary:#d59321;
+}
 
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 /* Default CSS */
@@ -44,14 +39,4 @@ body {
   position: relative;
   background-color: #f9f8ed !important;
 
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

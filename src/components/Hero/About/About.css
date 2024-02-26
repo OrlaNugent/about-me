@@ -17,17 +17,13 @@
 }
 
 
-.get-in-touch {
+.get-in-touch  {
     text-decoration: none;
-    color: #129d9d;
+    color:  #155656;
     text-decoration: underline;
+    font-weight:600;
 }
 
-.get-in-touch:hover {
-    color:  #d59321;
-    text-decoration: underline;
-    transition:  0.25s ease-in-out;
-}
 
 @media screen and (max-width: 830px) {
     .title-about {

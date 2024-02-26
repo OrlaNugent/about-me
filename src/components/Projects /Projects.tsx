@@ -1,18 +1,13 @@
-import "./Skills.css";
-import { TechStack } from "./TechStack/TechStack";
-export const Skills = () => {
+export const Projects = () => {
 	const items = [
 		{
-			name: `Software Engineer`,
-			year: "Nov 22 - Feb 24",
-			company: "Zoa",
+			name: `React Dictionary App`,
+
 			img: "images/programmer.svg",
 			review: `I worked in a full stack product team delivering web-based customer service tools. I used Typescript and React to develop our products.`,
 		},
 		{
-			name: `Apprentice Software Engineer`,
-			company: "Bulb",
-			year: "Sept 21 - Nov 22",
+			name: `React Weather App`,
 			img: `images/certificate.svg`,
 			review: `I worked in a backend Python team. Automating processes for industry operations team.`,
 		},
@@ -20,7 +15,7 @@ export const Skills = () => {
 
 	return (
 		<section id='skills'>
-			<h1 className='title-skills'>Skills and Experience</h1>
+			<h1 className='title-skills'>Projects</h1>
 			<div className='skills-experience'>
 				<div className='experience'>
 					{items.map((item, id) => (
@@ -32,15 +27,11 @@ export const Skills = () => {
 							/>
 							<div className='experience-text'>
 								<h2 className='experience-title'>{item.name}</h2>
-								<p>
-									{item.company} {item.year}
-								</p>
 								<p>{item.review}</p>
 							</div>
 						</div>
 					))}
 				</div>
-				<TechStack />
 			</div>
 		</section>
 	);

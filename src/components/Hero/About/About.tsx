@@ -5,7 +5,7 @@ export const About = () => {
 			<div className='content-about'>
 				<h1 className='title-about'>A little bit about me</h1>
 				<p className='description-about'>
-					I’m a full stack engineer based in Lodnon. Most recently working in
+					I’m a full stack engineer based in London. Most recently working in
 					Typescript within a full stack product team.
 				</p>
 				<p className='description-about'>
